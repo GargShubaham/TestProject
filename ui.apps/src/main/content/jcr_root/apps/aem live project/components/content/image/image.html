@@ -1,0 +1,10 @@
+<sly data-sly-use.example="conn.projectNew.core.models.Model1"/>
+<section class="wrapper-main defaultMargin whiteText" style="background-image: url(${properties.fileReference @ context='uri' });">
+    <div class="row">
+        <div class="small-12 medium-6 large-5 columns">
+            <h2>${properties.jcr:title}</h2>
+            <p>${properties.jcr:description}</p>
+            <a href="${example.link}" class="button btn-button" onclick="setCta(this.text)">${properties.ctaText}</a>
+        </div>
+    </div>
+</section>
