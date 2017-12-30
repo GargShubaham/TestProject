@@ -1,0 +1,11 @@
+This is a multifield compo
+
+<sly data-sly-use.example="conn.projectNew.core.models.Multifield"/>
+<ul data-sly-list="${example.data}" data-sly-unwrap>
+    Hii
+    <li>
+        ${item.title} <br/>
+        <img src="${item.link}"/> <br/>
+        ${item.flag}
+    </li>
+</ul>
