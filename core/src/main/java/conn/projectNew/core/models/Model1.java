@@ -18,8 +18,8 @@ public class Model1 {
     public String getLink() {
         Resource resource = resourceResolver.getResource(path);
         if (resource != null) {
-            return path + ApplicationConstants.HTML;
+                return path + ApplicationConstants.HTML;
         } else
-            return path;
+                return path;
     }
 }
