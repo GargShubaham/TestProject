@@ -1,0 +1,4 @@
+#base=js
+
+Sample3.js
+Sample4.js

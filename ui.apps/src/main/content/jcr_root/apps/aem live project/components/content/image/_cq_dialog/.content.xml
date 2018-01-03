@@ -93,6 +93,16 @@
                                 fieldLabel="CTA Link"
                                 name="./linkURL"
                                 rootPath="/content"/>
+                            <email
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                fieldLabel="Email"
+                                name="./email"/>
+                            <phoneNo
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                fieldLabel="PhoneNo"
+                                name="./phoneNo"/>
                         </items>
                     </column>
                 </items>
